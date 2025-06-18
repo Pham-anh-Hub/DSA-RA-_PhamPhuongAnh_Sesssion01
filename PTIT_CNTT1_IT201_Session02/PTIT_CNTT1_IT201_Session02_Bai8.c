@@ -12,13 +12,13 @@ int main() {
     int *maxNumber = (int *)malloc(n * sizeof(int));
     int index = 0;
 
-    int maxRight = numbers[n-1];
-    maxNumber[index++] = maxRight;
+    int greaterNumber = numbers[n-1];
+    maxNumber[index++] = greaterNumber;
 
     for (int i = n - 2; i >= 0; i--) {
-        if (numbers[i] > maxRight) {
-            maxRight = numbers[i];
-            maxNumber[index++] = maxRight;
+        if (numbers[i] > greaterNumber) {
+            greaterNumber = numbers[i];
+            maxNumber[index++] = greaterNumber;
         }
     }
 

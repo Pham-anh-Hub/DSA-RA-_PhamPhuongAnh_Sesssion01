@@ -19,8 +19,8 @@ void calDiagonals(int cols, int rows, int numbers[cols][rows]) {
         printf("\nTong duong cheo chinh: %d", mainDiagonals);
         printf("\nTong duong cheo phu: %d", scndDiagonals);
     }else {
-        printf("\nTong duong cheo chinh: %d", mainDiagonals);
-        printf("\nKhong ton tai duong cheo phu", scndDiagonals);
+        printf("\nKhong ton tai duong cheo chinh");
+        printf("\nKhong ton tai duong cheo phu");
     }
 
 

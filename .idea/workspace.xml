@@ -26,12 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcfec7e1-a82b-4886-938b-236318e34a38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session03/PTIT_CNTT1_IT201_Session03_Bai2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session03/PTIT_CNTT1_IT201_Session03_Bai3.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session03/PTIT_CNTT1_IT201_Session03_Bai4.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session03/PTIT_CNTT1_IT201_Session03_Bai5.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session03/PTIT_CNTT1_IT201_Session03_Bai6.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session03/PTIT_CNTT1_IT201_Session03_Bai7.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session03/PTIT_CNTT1_IT201_Session03_Bai5.c" beforeDir="false" afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session03/PTIT_CNTT1_IT201_Session03_Bai5.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +186,7 @@
       <workItem from="1750262298581" duration="1053000" />
       <workItem from="1750345354376" duration="1429000" />
       <workItem from="1750346813119" duration="1784000" />
-      <workItem from="1750377890229" duration="8852000" />
+      <workItem from="1750377890229" duration="9362000" />
     </task>
     <servers />
   </component>

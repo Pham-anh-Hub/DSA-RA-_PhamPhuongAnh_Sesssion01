@@ -26,7 +26,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcfec7e1-a82b-4886-938b-236318e34a38" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session03/PTIT_CNTT1_IT201_Session03_Bai5.c" beforeDir="false" afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session03/PTIT_CNTT1_IT201_Session03_Bai5.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session04/PTIT_CNTT1_IT201_Session04_Bai1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session04/PTIT_CNTT1_IT201_Session04_Bai10.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session04/PTIT_CNTT1_IT201_Session04_Bai2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session04/PTIT_CNTT1_IT201_Session04_Bai3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session04/PTIT_CNTT1_IT201_Session04_Bai4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session04/PTIT_CNTT1_IT201_Session04_Bai5.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session04/PTIT_CNTT1_IT201_Session04_Bai6.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session04/PTIT_CNTT1_IT201_Session04_Bai7.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session04/PTIT_CNTT1_IT201_Session04_Bai8.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session04/PTIT_CNTT1_IT201_Session04_Bai9.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session04/PTIT_CNTT1_IT201_Session04_demo_search.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session03/PTIT_CNTT1_IT201_Session03_Bai1.c" beforeDir="false" afterPath="$PROJECT_DIR$/PTIT_CNTT1_IT201_Session03/PTIT_CNTT1_IT201_Session03_Bai1.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +96,17 @@
     "C/C++ File.PTIT_CNTT1_IT201_Session03_Bai5.c.executor": "Run",
     "C/C++ File.PTIT_CNTT1_IT201_Session03_Bai6.c.executor": "Run",
     "C/C++ File.PTIT_CNTT1_IT201_Session03_Bai7.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai1.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai10.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai2.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai3.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai4.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai5.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai6.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai7.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai8.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_Bai9.c.executor": "Run",
+    "C/C++ File.PTIT_CNTT1_IT201_Session04_demo_search.c.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -96,6 +119,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/DELL/Desktop/CTDL&GT - RE/Session01",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -106,67 +130,58 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Desktop\CTDL&amp;GT - RE\Session01" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\Desktop\CTDL&amp;GT - RE" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.PTIT_CNTT1_IT201_Session03_Bai7.c">
-    <configuration name="PTIT_CNTT1_IT201_Session02_Bai7.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CTDL&gt; - RE" TARGET_NAME="PTIT_CNTT1_IT201_Session02_Bai7.c" CONFIG_NAME="PTIT_CNTT1_IT201_Session02_Bai7.c">
-      <option name="sourceFile" value="PTIT_CNTT1_IT201_Session02\PTIT_CNTT1_IT201_Session02_Bai7.c" />
+  <component name="RunManager" selected="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai9.c">
+    <configuration name="PTIT_CNTT1_IT201_Session04_Bai10.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CTDL&amp;GT - RE" TARGET_NAME="PTIT_CNTT1_IT201_Session04_Bai10.c" CONFIG_NAME="PTIT_CNTT1_IT201_Session04_Bai10.c">
+      <option name="sourceFile" value="PTIT_CNTT1_IT201_Session04\PTIT_CNTT1_IT201_Session04_Bai10.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PTIT_CNTT1_IT201_Session02_Bai8.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CTDL&gt; - RE" TARGET_NAME="PTIT_CNTT1_IT201_Session02_Bai8.c" CONFIG_NAME="PTIT_CNTT1_IT201_Session02_Bai8.c">
-      <option name="sourceFile" value="PTIT_CNTT1_IT201_Session02\PTIT_CNTT1_IT201_Session02_Bai8.c" />
+    <configuration name="PTIT_CNTT1_IT201_Session04_Bai7.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CTDL&amp;GT - RE" TARGET_NAME="PTIT_CNTT1_IT201_Session04_Bai7.c" CONFIG_NAME="PTIT_CNTT1_IT201_Session04_Bai7.c">
+      <option name="sourceFile" value="PTIT_CNTT1_IT201_Session04\PTIT_CNTT1_IT201_Session04_Bai7.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PTIT_CNTT1_IT201_Session03_Bai3.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CTDL&amp;GT - RE" TARGET_NAME="PTIT_CNTT1_IT201_Session03_Bai3.c" CONFIG_NAME="PTIT_CNTT1_IT201_Session03_Bai3.c">
-      <option name="sourceFile" value="PTIT_CNTT1_IT201_Session03\PTIT_CNTT1_IT201_Session03_Bai3.c" />
+    <configuration name="PTIT_CNTT1_IT201_Session04_Bai8.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CTDL&amp;GT - RE" TARGET_NAME="PTIT_CNTT1_IT201_Session04_Bai8.c" CONFIG_NAME="PTIT_CNTT1_IT201_Session04_Bai8.c">
+      <option name="sourceFile" value="PTIT_CNTT1_IT201_Session04\PTIT_CNTT1_IT201_Session04_Bai8.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PTIT_CNTT1_IT201_Session03_Bai4.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CTDL&amp;GT - RE" TARGET_NAME="PTIT_CNTT1_IT201_Session03_Bai4.c" CONFIG_NAME="PTIT_CNTT1_IT201_Session03_Bai4.c">
-      <option name="sourceFile" value="PTIT_CNTT1_IT201_Session03\PTIT_CNTT1_IT201_Session03_Bai4.c" />
+    <configuration name="PTIT_CNTT1_IT201_Session04_Bai9.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CTDL&amp;GT - RE" TARGET_NAME="PTIT_CNTT1_IT201_Session04_Bai9.c" CONFIG_NAME="PTIT_CNTT1_IT201_Session04_Bai9.c">
+      <option name="sourceFile" value="PTIT_CNTT1_IT201_Session04\PTIT_CNTT1_IT201_Session04_Bai9.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PTIT_CNTT1_IT201_Session03_Bai5.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CTDL&amp;GT - RE" TARGET_NAME="PTIT_CNTT1_IT201_Session03_Bai5.c" CONFIG_NAME="PTIT_CNTT1_IT201_Session03_Bai5.c">
-      <option name="sourceFile" value="PTIT_CNTT1_IT201_Session03\PTIT_CNTT1_IT201_Session03_Bai5.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PTIT_CNTT1_IT201_Session03_Bai6.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CTDL&amp;GT - RE" TARGET_NAME="PTIT_CNTT1_IT201_Session03_Bai6.c" CONFIG_NAME="PTIT_CNTT1_IT201_Session03_Bai6.c">
-      <option name="sourceFile" value="PTIT_CNTT1_IT201_Session03\PTIT_CNTT1_IT201_Session03_Bai6.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PTIT_CNTT1_IT201_Session03_Bai7.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CTDL&amp;GT - RE" TARGET_NAME="PTIT_CNTT1_IT201_Session03_Bai7.c" CONFIG_NAME="PTIT_CNTT1_IT201_Session03_Bai7.c">
-      <option name="sourceFile" value="PTIT_CNTT1_IT201_Session03\PTIT_CNTT1_IT201_Session03_Bai7.c" />
+    <configuration name="PTIT_CNTT1_IT201_Session04_demo_search.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CTDL&amp;GT - RE" TARGET_NAME="PTIT_CNTT1_IT201_Session04_demo_search.c" CONFIG_NAME="PTIT_CNTT1_IT201_Session04_demo_search.c">
+      <option name="sourceFile" value="PTIT_CNTT1_IT201_Session04\PTIT_CNTT1_IT201_Session04_demo_search.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session03_Bai3.c" />
-      <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session03_Bai4.c" />
-      <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session03_Bai5.c" />
-      <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session03_Bai6.c" />
-      <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session03_Bai7.c" />
+      <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session04_demo_search.c" />
+      <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai10.c" />
+      <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai7.c" />
+      <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai8.c" />
+      <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai9.c" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session03_Bai7.c" />
-        <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session03_Bai6.c" />
-        <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session03_Bai5.c" />
-        <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session03_Bai4.c" />
-        <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session03_Bai3.c" />
+        <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai9.c" />
+        <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session04_demo_search.c" />
+        <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai10.c" />
+        <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai8.c" />
+        <item itemvalue="C/C++ File.PTIT_CNTT1_IT201_Session04_Bai7.c" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +201,10 @@
       <workItem from="1750262298581" duration="1053000" />
       <workItem from="1750345354376" duration="1429000" />
       <workItem from="1750346813119" duration="1784000" />
-      <workItem from="1750377890229" duration="9362000" />
+      <workItem from="1750377890229" duration="10656000" />
+      <workItem from="1750655619169" duration="6693000" />
+      <workItem from="1750809888407" duration="7663000" />
+      <workItem from="1750818149256" duration="2696000" />
     </task>
     <servers />
   </component>

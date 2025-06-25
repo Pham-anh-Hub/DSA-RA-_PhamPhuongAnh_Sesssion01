@@ -11,7 +11,7 @@ int main() {
             scanf("%d", &numbers[i]);
         }
         for (int i = 0; i < n; i++) {
-            printf("%d ", numbers[i]);
+            printf("\nPhan tu %d: %d ",i+1, numbers[i]);
         }
     free(numbers);
 

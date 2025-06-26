@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 // int linearSearch(int arr[], int size, int target) {}
 int linearSearch(int arr[], int size, int target) {
@@ -25,18 +26,32 @@ int binarySearch(int arr[], int size, int target) {
     return -1;
 }
 
+
+int  factorial(int n) {
+    if (n==0) {
+        return 1;
+    };
+    return n * factorial(n-1);
+
+}
+
 int main() {
-    int size;
-    printf("Nhap so luong phan tu mang: ");
-    scanf("%d", &size);
-    int numbers[size];
-    for (int i = 0; i < size; i++) {
-        scanf("%d", &numbers[i]);
-    }
-    int value;
-    printf("Nhap phan tu can tim kiem: "); scanf("%d", &value);
-    printf("Vi tri phan tu can tim: %d", linearSearch(numbers, size, value));
-    printf("\nVi tri: %d, Gia tri: %d", linearSearch(numbers, size, value), numbers[binarySearch(numbers, size, value)]);
+
+    printf("%d",factorial(3));
+
+
+
+    // int size;
+    // printf("Nhap so luong phan tu mang: ");
+    // scanf("%d", &size);
+    // int numbers[size];
+    // for (int i = 0; i < size; i++) {
+    //     scanf("%d", &numbers[i]);
+    // }
+    // int value;
+    // printf("Nhap phan tu can tim kiem: "); scanf("%d", &value);
+    // printf("Vi tri phan tu can tim: %d", linearSearch(numbers, size, value));
+    // printf("\nVi tri: %d, Gia tri: %d", linearSearch(numbers, size, value), numbers[binarySearch(numbers, size, value)]);
 }
 
 

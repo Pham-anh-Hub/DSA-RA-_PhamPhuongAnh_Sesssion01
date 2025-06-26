@@ -15,6 +15,10 @@ int bubbleSort(int arr[], int size) {
 }
 
 int binarySearch(int arr[], int size, int target, int start, int end) {
+    //Thêm điều kiện dừng
+    if (start > end) {
+        return -1;
+    }
     int mid = (start + end) / 2;
     if (arr[mid] == target) {
         return mid;

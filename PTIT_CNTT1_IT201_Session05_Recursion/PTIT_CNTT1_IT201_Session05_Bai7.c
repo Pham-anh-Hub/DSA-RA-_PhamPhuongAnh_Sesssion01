@@ -7,9 +7,9 @@ int printFibo(int arr[], int n, int cnt) {
     if (cnt >=2) {
         arr[cnt] = arr[cnt - 1] + arr[cnt - 2];
     }
-    printf("%d ", arr[cnt]);
-    printFibo(arr, n, cnt+1);
 
+    printFibo(arr, n, cnt+1);
+    printf("%d ", arr[cnt]);
 }
 
 int main() {

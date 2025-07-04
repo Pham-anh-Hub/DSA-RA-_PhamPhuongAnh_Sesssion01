@@ -79,6 +79,7 @@ int main() {
 
     displayNode(head);
     head = arrangeNode(head);
+    printf("DS sau khi sap xep: \n");
     displayNode(head);
 
 }

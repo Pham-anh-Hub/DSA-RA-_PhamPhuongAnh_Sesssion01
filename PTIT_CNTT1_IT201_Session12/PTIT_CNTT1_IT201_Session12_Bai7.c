@@ -42,6 +42,32 @@ int getLength(Node* head) {
     return length;
 }
 
+// Xay dung ham sap xep danh sach theo selection sort
+
+void arrangeList(Node* head) {
+    if (head == NULL) return;
+    int length = getLength(head);
+    Node* i = head;
+    Node* temp = createNode(NULL);
+    while (i != NULL) {
+        Node* min_node = i;
+        Node* j = i -> next;
+        while (j != NULL) {
+            if (min_node -> data < j -> data) {
+                min_node = j;
+            }
+            j = j -> next;
+        }
+        if (i != min_node) {
+            temp -> data = i -> data;
+            i -> data = min_node -> data;
+            min_node -> data = temp -> data;
+        }
+        i = i -> next;
+    }
+}
+
+
 int main() {
     Node* head;
     Node* node1 = createNode(6);
@@ -67,13 +93,10 @@ int main() {
     node5 -> next = node6;
     node6 -> prev = node5;
 
-    int midNode = getLength(head) / 2 + 1;
-    Node* current = head;
-    for (int i = 1; i < midNode; i++) {
-        current = current -> next;
-    }
     displayList(head);
-    printf("\nNode %d: %d", midNode, current -> data);
+    printf("\Sau khi sap xep: \n");
+    arrangeList(head);
+    displayList(head);
 }
 
 

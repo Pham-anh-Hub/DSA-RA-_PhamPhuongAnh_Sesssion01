@@ -30,30 +30,26 @@ void displayList(Node* head) {
     printf("NULL\n");
 }
 
-// Them phan tu vao cuoi danh sach
-Node* insertEnd(Node* head, int data) {
-    Node* newNode = createNode(data);
-    if (head == NULL) return newNode;
+// Lay duoc length
+int getLength(Node* head) {
+    if (head == NULL) return 0;
+    int length = 0;
     Node* current = head;
-    while (current -> next != NULL) {
+    while (current != NULL) {
+        length++;
         current = current -> next;
     }
-
-    newNode -> prev = current;
-    current -> next = newNode;
-    newNode -> next = NULL;
-    return head;
+    return length;
 }
 
-
-
 int main() {
-    Node* head = NULL;
-    Node* node1 = createNode(2);
+    Node* head;
+    Node* node1 = createNode(6);
     Node* node2 = createNode(2);
     Node* node3 = createNode(8);
-    Node* node4 = createNode(4);
+    Node* node4 = createNode(3);
     Node* node5 = createNode(7);
+    Node* node6 = createNode(9);
 
     head = node1;
     head -> next = node2;
@@ -68,8 +64,18 @@ int main() {
     node4 -> next = node5;
     node5 -> prev = node4;
 
+    node5 -> next = node6;
+    node6 -> prev = node5;
+
+    int midNode = getLength(head) / 2 + 1;
+    Node* current = head;
+    for (int i = 1; i < midNode; i++) {
+        current = current -> next;
+    }
     displayList(head);
-    head = insertEnd(head, 12);
-    printf("Sau khi them: \n");
-    displayList(head);
+    printf("\nNode %d: %d", midNode, current -> data);
 }
+
+
+
+

@@ -29,19 +29,33 @@ void displayList(Node* head) {
     }
     printf("NULL\n");
 }
+// Xay dung ham xoa phan tu o dau
+Node* deleteHead(Node* head) {
+    if (head == NULL) return NULL;
+    if (head -> next == NULL) {
+        free(head);
+        return NULL;
+    }
+    Node* temp = head;
+    head = head -> next;
+    free(temp);
+    return head;
+}
 
-// Them phan tu vao cuoi danh sach
-Node* insertEnd(Node* head, int data) {
-    Node* newNode = createNode(data);
-    if (head == NULL) return newNode;
+// Xay dung ham xoa phan tu cuoi
+Node* deleteEnd(Node* head) {
+    if (head == NULL) return NULL;
+    if (head -> next == NULL) {
+        free(head);
+        return NULL;
+    }
     Node* current = head;
     while (current -> next != NULL) {
         current = current -> next;
     }
-
-    newNode -> prev = current;
-    current -> next = newNode;
-    newNode -> next = NULL;
+    // printf("current -> %d\n", current -> data);
+    current = current -> prev;
+    current -> next = NULL;
     return head;
 }
 
@@ -69,7 +83,7 @@ int main() {
     node5 -> prev = node4;
 
     displayList(head);
-    head = insertEnd(head, 12);
-    printf("Sau khi them: \n");
+    head = deleteEnd(head);
+    printf("Sau khi xoa: \n");
     displayList(head);
 }

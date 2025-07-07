@@ -26,8 +26,8 @@ void display(Node* head) {
 
 
 Node* insertHead(Node* head, int value) {
-    if (head == NULL) return NULL;
-    Node* newNode = createNode(value);
+	Node* newNode = createNode(value);
+    if (head == NULL) return newNode;
     newNode -> next = head;
     head -> prev = newNode;
     head = newNode;

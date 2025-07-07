@@ -29,7 +29,30 @@ void displayList(Node* head) {
     }
     printf("NULL\n");
 }
+// Do dai danh sach
+int getLength(Node* head) {
+    if (head == NULL) return 0;
+    Node* current = head;
+    int length = 0;
+    while (current != NULL) {
+        length++;
+        current = current -> next;
+    }
+    return length;
+}
 
+// Xay dung ham xoa phan tu o dau
+Node* deleteHead(Node* head) {
+    if (head == NULL) return NULL;
+    if (head -> next == NULL) {
+        free(head);
+        return NULL;
+    }
+    Node* temp = head;
+    head = head -> next;
+    free(temp);
+    return head;
+}
 // Xay dung ham xoa phan tu cuoi
 Node* deleteEnd(Node* head) {
     if (head == NULL) return NULL;
@@ -46,15 +69,31 @@ Node* deleteEnd(Node* head) {
     current -> next = NULL;
     return head;
 }
-
-
+//Xoa phan tu o vi tri bat ky
+Node* deleteAt(Node* head, int pos) {
+    if (head == NULL) return NULL;
+    if (pos == 1) {
+        return deleteHead(head);
+    }else if (pos == getLength(head)) {
+        return deleteEnd(head);
+    }else {
+        Node* current = head;
+        for (int i = 1; i < pos-1; i++) {
+            current = current -> next;
+        }
+        printf("current -> %d\n", current -> data);
+        current -> next = current -> next -> next;
+        current -> next -> prev = current -> prev;
+        return head;
+    }
+}
 
 int main() {
     Node* head = NULL;
-    Node* node1 = createNode(2);
-    Node* node2 = createNode(2);
+    Node* node1 = createNode(5);
+    Node* node2 = createNode(3);
     Node* node3 = createNode(8);
-    Node* node4 = createNode(4);
+    Node* node4 = createNode(5);
     Node* node5 = createNode(7);
 
     head = node1;
@@ -71,7 +110,20 @@ int main() {
     node5 -> prev = node4;
 
     displayList(head);
-    head = deleteEnd(head);
-    printf("Sau khi xoa: \n");
+    Node* current = head;
+    int value, i=1;
+    printf("\nNhap gia tri phan tu can xoa: "); scanf("%d", &value);
+    while (i<= getLength(head)) {
+        if (current -> data == value) {
+            printf("%d \n", i);
+            head = deleteAt(head, i);
+            current = head;
+            i=1;
+            continue;
+            // Gan lai head va index xoa --> tránh bỏ sót node cần xóa
+        }
+        i++;
+        current = current -> next;
+    }
     displayList(head);
 }

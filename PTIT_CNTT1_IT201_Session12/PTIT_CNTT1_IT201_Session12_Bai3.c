@@ -14,20 +14,38 @@ Node* createNode(int data) {
     newNode -> prev = NULL;
     return newNode;
 }
-
-void display(Node* head) {
-    if(head == NULL) {
-        printf("Danh sach rong");
-        return;
+// Ham bieu dien danh sach
+void displayList(Node* head) {
+    if (head == NULL) return;
+    Node* current = head;
+    while (current != NULL) {
+        printf("%d", current -> data);
+        if (current -> next != NULL) {
+            printf(" <-> ");
+        }else {
+            printf(" -> ");
+        }
+        current = current -> next;
     }
-	Node* current = head;
-	int index = 1;
-	while(current != NULL) {
-		printf("node %d: %d \n",index, current->data);
-		current = current -> next;
-		index++;
-	}
+    printf("NULL\n");
 }
+
+// Them phan tu vao cuoi danh sach
+Node* insertEnd(Node* head, int data) {
+    Node* newNode = createNode(data);
+    if (head == NULL) return newNode;
+    Node* current = head;
+    while (current -> next != NULL) {
+        current = current -> next;
+    }
+
+    newNode -> prev = current;
+    current -> next = newNode;
+    newNode -> next = NULL;
+    return head;
+}
+
+
 
 int main() {
     Node* head = NULL;
@@ -49,5 +67,9 @@ int main() {
 
     node4 -> next = node5;
     node5 -> prev = node4;
-    display(head);
+
+    displayList(head);
+    head = insertEnd(head, 12);
+    printf("Sau khi them: \n");
+    displayList(head);
 }

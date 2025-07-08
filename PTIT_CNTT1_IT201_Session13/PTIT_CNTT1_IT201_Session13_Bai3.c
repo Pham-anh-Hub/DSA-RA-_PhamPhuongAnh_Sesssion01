@@ -37,7 +37,7 @@ int main() {
     stack = createStack(size_cap);
     for (int i=0; i<size_cap; i++) {
         scanf("%d", &stack->arr[i]);
-        stack -> top = stack->arr[i];
+        stack -> top =i;
     }
     printf("\ntop: %d", stack -> top );
     printf("\ncap: %d", stack -> cap );

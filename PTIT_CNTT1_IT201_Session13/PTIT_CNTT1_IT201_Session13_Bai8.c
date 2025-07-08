@@ -69,12 +69,9 @@ int main() {
                 }
 
             }
-            printf("%d\n", res);
-            push(stack, res);
-
+            //printf("%d\n", res);
+            //push(stack, res);
         }
-
-
     }
 
     printf("Result: %d", pop(stack));
